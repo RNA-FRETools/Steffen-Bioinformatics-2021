@@ -20,6 +20,7 @@ dependencies:
   - ca-certificates=2020.12.5=ha878542_0
   - certifi=2020.12.5=py38h578d9bd_1
   - cffi=1.14.5=py38ha65f79e_0
+  - cmake=3.19.6=h3020d66_0
   - cycler=0.10.0=py_2
   - dbus=1.13.6=hfdff14a_1
   - decorator=4.4.2=py_0
@@ -80,6 +81,7 @@ dependencies:
   - libstdcxx-ng=9.3.0=h6de172a_18
   - libtiff=4.2.0=hdc55705_0
   - libuuid=2.32.1=h7f98852_1000
+  - libuv=1.41.0=h7f98852_0
   - libwebp-base=1.2.0=h7f98852_0
   - libxcb=1.13=h7f98852_1003
   - libxkbcommon=1.0.3=he3ba5ed_0
@@ -146,6 +148,7 @@ dependencies:
   - pyzmq=22.0.3=py38h2035c66_1
   - qt=5.12.9=hda022c4_4
   - readline=8.0=he28a2e2_2
+  - rhash=1.4.1=h7f98852_0
   - scipy=1.6.0=py38hb2138dd_0
   - seaborn=0.11.1=hd8ed1ab_1
   - seaborn-base=0.11.1=pyhd8ed1ab_1
