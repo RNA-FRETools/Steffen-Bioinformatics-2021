@@ -138,7 +138,7 @@ For memory-efficient FRET predictions across the entire MD trajectory we compute
 
 ```python
 # test with a few frames (snapshot every 100 ns)
-fret = ft.cloud.pipeline_frames(traj, 'Cy3-20-C5', 'Cy5-44-O5\'', labels, selected_frames, 'Cy3-Cy5')
+fret = ft.cloud.pipeline_frames(traj, 'Cy3-20-C5', 'Cy5-44-P1', labels, selected_frames, 'Cy3-Cy5')
 
 # full trajectory (snapshot every 100 ps, time-consuming!)
 #all_frames = range(0,10001)

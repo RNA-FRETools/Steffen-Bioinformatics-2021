@@ -1,4 +1,4 @@
-name: Steffen_Bioinformatics_2021
+name: FRETraj-demo
 channels:
   - rna-fretools
   - conda-forge
