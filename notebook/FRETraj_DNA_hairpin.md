@@ -8,7 +8,7 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.10.3
   kernelspec:
-    display_name: Python 3
+    display_name: Python 3 (ipykernel)
     language: python
     name: python3
 ---
@@ -177,7 +177,7 @@ with sns.axes_style('ticks'):
 
 ## Adding shot noise by simulating photon emission
 
-To compare the FRET predictions with single-moelcule eperiments we need to take the photon statistics into account. For this purpose, we generate photon emission events based on the experimental burst size distribution and the time-dependent inter-dye distances $R_{DA}$.
+To compare the FRET predictions with single-molecule eperiments we need to take the photon statistics into account. For this purpose, we generate photon emission events based on the experimental burst size distribution and the time-dependent inter-dye distances $R_{DA}$.
 
 We first save a time trace of $R_{DA}$ and $\kappa^2$ values (the latter is set to 0.66, i.e. isotropic average).
 
@@ -231,7 +231,7 @@ parameters = {'dyes': {
 We can then initialize a burst experiment
 
 ```python
-experiment = ft.burst.Experiment('.', parameters, compute_anisotropy=False)
+experiment = ft.burst.Experiment('../data', parameters, compute_anisotropy=False)
 ```
 
 The resulting `fretraj.burst.Experiment` objects can be serialized and saved to disk.
