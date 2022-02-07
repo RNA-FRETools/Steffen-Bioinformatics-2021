@@ -11,7 +11,7 @@ dependencies:
   - blosc=1.21.0=h9c3ff4c_0
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.18.1=h7f98852_0
-  - ca-certificates=2021.10.26=h06a4308_2
+  - ca-certificates=2021.10.8=ha878542_0
   - cmake=3.22.1=h1fce559_0
   - colorama=0.4.4=pyh9f0ad1d_0
   - dbus=1.13.6=h5008d03_3
@@ -32,8 +32,11 @@ dependencies:
   - icu=69.1=h9c3ff4c_0
   - importlib-metadata=4.10.1=py39hf3d152e_0
   - importlib_resources=5.4.0=pyhd8ed1ab_0
+  - ipython_genutils=0.2.0=py_1
   - jpeg=9e=h7f98852_0
   - jsonschema=4.4.0=pyhd8ed1ab_0
+  - jupyter_core=4.9.1=py39hf3d152e_1
+  - jupytext=1.13.6=pyheef035f_0
   - krb5=1.19.2=hcc1bbae_3
   - ld_impl_linux-64=2.36.1=hea4e1c9_2
   - libblas=3.9.0=13_linux64_openblas
@@ -72,9 +75,12 @@ dependencies:
   - llvmlite=0.38.0=py39h1bbdace_0
   - lz4-c=1.9.3=h9c3ff4c_1
   - lzo=2.10=h516909a_1000
+  - markdown-it-py=1.1.0=pyhd8ed1ab_0
+  - mdit-py-plugins=0.3.0=pyhd8ed1ab_0
   - mdtraj=1.9.7=py39h138c130_1
   - mysql-common=8.0.28=ha770c72_0
   - mysql-libs=8.0.28=hfa10184_0
+  - nbformat=5.1.3=pyhd8ed1ab_0
   - ncurses=6.3=h9c3ff4c_0
   - nomkl=1.0=h5ca1d4c_0
   - nspr=4.32=h9c3ff4c_1
@@ -82,7 +88,7 @@ dependencies:
   - numba=0.55.1=py39h56b8d98_0
   - numexpr=2.8.0=py39hbd72853_101
   - numpy=1.21.5=py39haac66dc_0
-  - openssl=1.1.1m=h7f8727e_0
+  - openssl=1.1.1l=h7f98852_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandas=1.4.0=py39hde0f152_0
   - pcre=8.45=h9c3ff4c_0
@@ -101,6 +107,7 @@ dependencies:
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.9=2_cp39
   - pytz=2021.3=pyhd8ed1ab_0
+  - pyyaml=6.0=py39h3811e60_3
   - qt=5.12.9=ha98a1a1_5
   - readline=8.1=h46c0cb4_0
   - rhash=1.4.1=h3c74f83_1
@@ -110,12 +117,16 @@ dependencies:
   - snappy=1.1.8=he1b5a44_3
   - sqlite=3.37.0=h9cd32fc_0
   - tk=8.6.11=h27826a3_1
+  - toml=0.10.2=pyhd8ed1ab_0
   - tqdm=4.62.3=pyhd8ed1ab_0
+  - traitlets=5.1.1=pyhd8ed1ab_0
+  - typing_extensions=4.0.1=pyha770c72_0
   - tzdata=2021e=he74cb21_0
   - wheel=0.37.1=pyhd8ed1ab_0
   - xorg-libxau=1.0.9=h7f98852_0
   - xorg-libxdmcp=1.1.3=h7f98852_0
   - xz=5.2.5=h516909a_1
+  - yaml=0.2.5=h7f98852_2
   - zipp=3.7.0=pyhd8ed1ab_1
   - zlib=1.2.11=h36c2ea0_1013
   - zstd=1.5.2=ha95c52a_0
