@@ -11,7 +11,8 @@ dependencies:
   - blosc=1.21.0=h9c3ff4c_0
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.18.1=h7f98852_0
-  - ca-certificates=2021.10.8=ha878542_0
+  - ca-certificates=2021.10.26=h06a4308_2
+  - cmake=3.22.1=h1fce559_0
   - colorama=0.4.4=pyh9f0ad1d_0
   - dbus=1.13.6=h5008d03_3
   - expat=2.4.4=h9c3ff4c_0
@@ -62,6 +63,7 @@ dependencies:
   - libssh2=1.10.0=ha56f1ee_2
   - libstdcxx-ng=11.2.0=he4da1e4_12
   - libuuid=2.32.1=h7f98852_1000
+  - libuv=1.40.0=h7b6447c_0
   - libvorbis=1.3.7=h9c3ff4c_0
   - libxcb=1.13=h7f98852_1004
   - libxkbcommon=1.0.3=he3ba5ed_0
@@ -80,7 +82,7 @@ dependencies:
   - numba=0.55.1=py39h56b8d98_0
   - numexpr=2.8.0=py39hbd72853_101
   - numpy=1.21.5=py39haac66dc_0
-  - openssl=1.1.1l=h7f98852_0
+  - openssl=1.1.1m=h7f8727e_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandas=1.4.0=py39hde0f152_0
   - pcre=8.45=h9c3ff4c_0
@@ -101,6 +103,7 @@ dependencies:
   - pytz=2021.3=pyhd8ed1ab_0
   - qt=5.12.9=ha98a1a1_5
   - readline=8.1=h46c0cb4_0
+  - rhash=1.4.1=h3c74f83_1
   - scipy=1.8.0=py39hee8e79c_0
   - setuptools=60.7.1=py39hf3d152e_0
   - six=1.16.0=pyh6c4a22f_0
