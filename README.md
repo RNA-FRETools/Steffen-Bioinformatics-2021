@@ -1,5 +1,8 @@
 # Analysis of DNA hairpin dynamics with FRETraj
 
+> [!Note]
+> Please cite: Fabio D Steffen, Roland K O Sigel, Richard Börner, FRETraj: integrating single-molecule spectroscopy with molecular dynamics, Bioinformatics, Volume 37, Issue 21, November 2021, Pages 3953–3955, https://doi.org/10.1093/bioinformatics/btab615 
+
 This repository demonstrates the use of *FRETraj* for high throughput accessible-contact volume calculation (multi-ACV) and subsequent FRET prediction. The workflow is outlined in an interactive *Jupyter* notebook which can be run locally or directly on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rna-fretools/FRETraj-demo/main?filepath=notebook%2FFRETraj_DNA_hairpin.md) without any installation.
 
 > Note: Binder needs to build the image from the repository which can take a few seconds.
